@@ -1,0 +1,6 @@
+if SHIELD_DEE62
+
+config ZMK_KEYBOARD_NAME
+    default "Dee62"
+
+endif
