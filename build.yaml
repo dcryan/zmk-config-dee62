@@ -14,4 +14,4 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: dee62
+    shield: [ dee62_left, dee62_right ]
