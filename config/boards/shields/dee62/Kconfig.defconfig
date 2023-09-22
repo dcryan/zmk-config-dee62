@@ -7,6 +7,10 @@ config ZMK_SPLIT_ROLE_CENTRAL_DEVICE
   bool "Dee62 Left"
   default y
 
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+  bool "Dee62 Left"
+	default y
+
 endif
 
 if SHIELD_DEE62_LEFT || SHIELD_DEE62_RIGHT
@@ -14,5 +18,14 @@ if SHIELD_DEE62_LEFT || SHIELD_DEE62_RIGHT
 config ZMK_SPLIT
   bool "Dee62"
   default y
+
+config ZMK_BATTERY
+  default y
+
+config ZMK_BLE
+	default y
+
+config ZMK_USB
+	default y
 
 endif
