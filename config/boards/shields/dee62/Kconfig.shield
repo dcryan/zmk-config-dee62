@@ -1,2 +1,5 @@
-config SHIELD_DEE62
-    def_bool $(shields_list_contains,dee62)
+config SHIELD_DEE62_LEFT
+    def_bool $(shields_list_contains,dee62_left)
+
+config SHIELD_DEE62_RIGHT
+    def_bool $(shields_list_contains,dee62_right)

@@ -1,6 +1,16 @@
-if SHIELD_DEE62
+if SHIELD_DEE62_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "Dee62"
+
+config ZMK_SPLIT_ROLE_CENTRAL_DEVICE
+    default y
+
+endif
+
+if SHIELD_DEE62_LEFT || SHIELD_DEE62_RIGHT
+
+config ZMK_SPLIT
+  default y
 
 endif
